@@ -36,7 +36,7 @@ return (
     )}
     </div>
     <nav className={`${navIsVisible ? "right-0" : "right-full"
-     } transition-all duration-300 mt-[56px lg:mt-0 [49] bg-gray-900 lg:bg-transparent flex flex-col w-full lg:w-auto lg:flex-row justify-center lg:justify-end fixed top-0 bottom-0 -right-full lg:static flex gap-x-9 items-center`}>
+     } transition-all duration-300 bg-gray-900 lg:bg-transparent flex flex-col w-full lg:w-auto lg:flex-row justify-center lg:justify-end fixed top-0 bottom-0 -right-full lg:static gap-x-9 items-center`}>
       <ul className='z-50 gap-y-5 items-center flex gap-x-5 flex flex-col lg:flex-row font-semibold gap-x-2'>
         {
           Links.map((link) => (
