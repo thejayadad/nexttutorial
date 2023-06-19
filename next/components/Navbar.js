@@ -20,7 +20,7 @@ const Links = [
 ]  
 return (
     <header className='cursor-pointer container mx-auto px-5 flex justify-between py-4 items-center z-50'>
-    <div>
+    <div> 
         <Link href='/' className="text-gray-900 text-3xl font-bold hover:bg-gray-500 p-2 border-md hover:text-white transition-all duration-300">Site Logo</Link>
     </div>
     <div className="lg:hidden z-50">
@@ -36,8 +36,8 @@ return (
     )}
     </div>
     <nav className={`${navIsVisible ? "right-0" : "right-full"
-     } transition-all duration-300 bg-gray-900 lg:bg-transparent flex flex-col w-full lg:w-auto lg:flex-row justify-center lg:justify-end fixed top-0 bottom-0 -right-full lg:static gap-x-9 items-center`}>
-      <ul className='z-50 gap-y-5 items-center flex gap-x-5 flex flex-col lg:flex-row font-semibold gap-x-2'>
+     } transition-all duration-300 bg-gray-900 flex flex-col w-full fixed top-0 bottom-0 -right-full lg:bg-transparent lg:static gap-x-9 items-center lg:w-auto lg:flex-row justify-center lg:justify-end`}>
+      <ul className='z-50 gap-y-5 items-center flex gap-x-5 flex flex-col font-semibold gap-x-2 lg:flex-row'> 
         {
           Links.map((link) => (
         <li>
