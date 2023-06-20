@@ -1,7 +1,9 @@
 'use client'
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose,AiOutlineSmile } from "react-icons/ai";
 import React, { useState } from 'react'
 import Link from "next/link";
+import { SunIcon, MoonIcon } from '@heroicons/react/24/solid'
+
 
 const Navbar = () => {
   const [navIsVisible, setNavIsVisible] = useState(false);
@@ -17,6 +19,7 @@ const Links = [
       {name:"GALLERY",link:"/gallery"},
       {name:"ABOUT",link:"/about"},
       {name:"CONTACT",link:"/contact"},
+      {name: ""}
 ]  
 return (
     <header className='cursor-pointer container mx-auto px-5 flex justify-between py-4 items-center z-50'>
